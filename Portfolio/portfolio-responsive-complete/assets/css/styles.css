@@ -292,11 +292,14 @@ img {
 }
 .skills__html {
   width: 70%;
+  width: 70%;
 }
 .skills__css {
   width: 65%;
+  width: 65%;
 }
 .skills__js {
+  width: 60%;
   width: 60%;
 }
 .skills__ux {
