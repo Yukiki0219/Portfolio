@@ -24,6 +24,7 @@
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Event</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
@@ -34,6 +35,9 @@
                 </div>
             </nav>
         </header>
+
+        <!-- Alerts container (dynamic alerts are appended here) -->
+        <div id="alerts" class="alerts-container" aria-live="polite" aria-atomic="true"></div>
 
         <main class="l-main">
             <!--===== HOME =====-->
@@ -126,6 +130,46 @@
                     
                     <div>              
                         <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+            
+            <!--===== PROJECT =====-->
+            <section class="project section" id="project">
+                <h2 class="section-title">Project</h2>
+
+                <div class="gallery-container bd-grid">
+                    <div class="gallery-header">
+                        <div class="gallery-title-desc">
+                            <h3 class="gallery-title">Project Showcase</h3>
+                            <p class="gallery-desc">Explore a visual gallery of my projects, PC Dream and EaseQueue, reflecting my skills in software development and design.</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-grid">
+                        <a class="gallery-card">
+                            <img src="assets/img/PCDream2.png" loading="lazy" alt="PC Dream2" />
+                            <div class="gallery-overlay"></div>
+                        </a>
+
+                        <a class="gallery-card gallery-card--wide gallery-card--video">
+                            <iframe
+                                src="https://www.youtube.com/embed/6WuQlsDvIeM?autoplay=1&mute=1&rel=0&loop=1&playlist=6WuQlsDvIeM"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="autoplay; encrypted-media; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </a>
+
+                        <a class="gallery-card gallery-card--wide">
+                            <img src="assets/img/PCDream1.png" loading="lazy" alt="PC Dream1" />
+                            <div class="gallery-overlay"></div>
+                        </a>
+
+                        <a class="gallery-card " aria-label="YouTube video">
+                            <img src="assets/img/EaseQueue.png" loading="lazy" alt="EaseQueue" />
+                            <div class="gallery-overlay"></div>
+                        </a>
                     </div>
                 </div>
             </section>
